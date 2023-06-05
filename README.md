@@ -28,6 +28,10 @@ JDK - 18 Recomendada devido ao suporte da série 6.2 do Hibernate, mas uso não 
 
 ## 🖼️ Capturas de tela
 <p align="center">
-  <img src= https://github.com/EmersonLucas/Campo-Minado/blob/main/CampoMinadoSwing/screenshots/1.png  width="480" >
-  <img src= https://github.com/EmersonLucas/Campo-Minado/blob/main/CampoMinadoSwing/screenshots/2.png width="480" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20192731.png  width="380" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20192751.png width="380" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20192809.png  width="380" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20192832.png width="380" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20192931.png  width="380" >
+  <img src= https://github.com/EmersonLucas/BibliotecaSimples/blob/main/screenshots/Captura%20de%20tela%202023-06-05%20193000.png width="380" >
 </p>
