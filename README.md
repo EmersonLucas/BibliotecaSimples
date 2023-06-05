@@ -10,7 +10,7 @@ Objetivo é um sistema bibliotecário simples que tenha gerenciamento de login e
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``Java 20``
+- ``JavaJDK 20``
 - ``Eclipse``
 - ``JavaFX20``
 - ``Maven``
