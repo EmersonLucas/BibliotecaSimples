@@ -12,10 +12,10 @@ Objetivo é um sistema bibliotecário simples que tenha gerenciamento de login e
 
 - ``JavaJDK 20``
 - ``Eclipse``
-- ``JavaFX20``
+- ``JavaFX 20``
 - ``Maven``
 - ``Hibernate``
 
 # 🛠️ Abrir e rodar o projeto
 Importe ele para sua IDE.<br/>
-Caso entityManager retorne nulo bastá execurtar no modo debug.
+Caso entityManager retorne nulo basta execurtar no modo debug.
