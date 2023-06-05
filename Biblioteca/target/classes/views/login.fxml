@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <left>
+      <AnchorPane prefHeight="640.0" prefWidth="338.0" style="-fx-background-color: ff7171;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/library.png" />
+               </image>
+            </ImageView>
+            <Text fill="#fafafa" layoutX="44.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIBLIOTECA">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="575.0" mnemonicParsing="false" onAction="#buttonVoltar" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #14B0FF;" text="Voltar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator layoutX="69.0" layoutY="163.0" prefWidth="200.0" />
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="640.0" prefWidth="623.0" style="-fx-background-color: #ffedb2#ffedb2;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="anchorAlert" layoutX="204.0" layoutY="477.0" prefHeight="110.0" prefWidth="148.0" visible="false">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/warning.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="74.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário não encontrado ou campo invalido!" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="293.0" layoutY="371.0" mnemonicParsing="false" onAction="#buttonEntrar" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #14B0FF;" text="Entrar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="176.0" layoutY="190.0" text="SISTEMA DE ACESSO" textFill="#14b0ff">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userXML" layoutX="253.0" layoutY="276.0" prefHeight="30.0" prefWidth="180.0" promptText="Usuario">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordXML" layoutX="252.0" layoutY="334.0" prefHeight="30.0" prefWidth="180.0" promptText="Senha">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="267.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="213.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/profile.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="213.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/padlock.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="246.0" layoutY="276.0" orientation="VERTICAL" prefHeight="30.0" prefWidth="0.0" />
+            <Separator layoutX="246.0" layoutY="334.0" orientation="VERTICAL" prefHeight="30.0" prefWidth="0.0" />
+            <Hyperlink layoutX="317.0" layoutY="444.0" onAction="#hyperCadastrar" text="Cadastra-se">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="150.0" fitWidth="24.0" layoutX="286.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/resume.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

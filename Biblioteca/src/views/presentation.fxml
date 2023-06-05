@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PresentationController">
+   <right>
+      <AnchorPane prefHeight="640.0" prefWidth="277.0" style="-fx-background-color: #ffedb2#ffedb2;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="110.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emerson Lucas">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="73.0" layoutY="506.0" prefHeight="29.0" prefWidth="220.0" text="https://github.com/EmersonLucas">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="100.0" fitWidth="105.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/coding.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="14.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/github.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="177.0" layoutY="575.0" mnemonicParsing="false" onAction="#buttonAvancar" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #14B0FF;" text="Avançar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="640.0" prefWidth="670.0" style="-fx-background-color: ff7171;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="128.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROJETO BIBLIOTECA SIMPLES" wrappingWidth="495.47088623046875">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="128.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JAVAFX20 - MAVEN - ECLIPSE - JDK20" wrappingWidth="489.46405029296875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="128.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MySQL - HIBERNATE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="128.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SISTEMA DE ACESSO SIMPLES">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="100.0" fitWidth="105.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/library.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="14.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/java.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="14.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/mysql.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="14.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/browser.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

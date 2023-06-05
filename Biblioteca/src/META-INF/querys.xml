@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm
+                                     http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd" version="2.2">
+   <named-query name="getUserInDataBase" >
+   	<query>
+   		SELECT e FROM User e WHERE e.name = :name AND e.password = :password
+   	</query>
+   </named-query> 
+   
+   <named-query name="getMyBooksInDataBase" >
+   	<query>
+   		SELECT b FROM MyBooks b WHERE b.user.id = :userId 
+   	</query>
+   </named-query>    
+   
+   <named-query name="bookFindByNome" >
+   	<query>
+   		SELECT b FROM Book b WHERE b.nome = :name
+   	</query>
+   </named-query>  
+   
+    <named-query name="myBooksFindByNome" >
+   	<query>
+   		SELECT b FROM MyBooks b WHERE b.nome = :name
+   	</query>
+   </named-query>  
+   
+   <named-query name="myBookDeleteById" >
+   	<query>
+   		DELETE FROM MyBooks b WHERE b.id = :id
+   	</query>
+   </named-query> 
+                      
+</entity-mappings>
+                 
