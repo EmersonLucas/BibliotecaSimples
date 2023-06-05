@@ -8,9 +8,9 @@ O projeto contem dois arquivos .SQL para inserção de dados no banco(uso não o
 Também há uma versão zipada do projeto e uma pasta que armazena os capturas de tela para demostração.
 ## 🔨 Funcionalidades do projeto
 - `Sistema básico de autentificação de usuário`
-- `Sistema básico de cadastro de usuários
-- `Sistema de cadastro de livros e alteração
-- `Sistema de empréstimo simples de livros
+- `Sistema básico de cadastro de usuários`
+- `Sistema de cadastro de livros e alteração`
+- `Sistema de empréstimo simples de livros`
 - `Sistema de bloqueio de empréstimo `
 
 ## ✔️ Técnicas e tecnologias utilizadas
